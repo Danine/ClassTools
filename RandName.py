@@ -9,5 +9,7 @@ for i in range(2, nrows):
     name = sheet.cell(i, 1).value
     names.append(name)
 
-lucky = random.sample(names, 3)
-print(lucky)
+print("周三晚上教学期中座谈会")
+print("\n幸运奖池：", names, end='\n')
+lucky = random.sample(names, 2)
+print("\n获奖名单：",lucky)
